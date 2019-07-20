@@ -6,26 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Task Notes Board App</title>
-     <!--*--------- BootStrap CSS ---------*-->
+    <!--!--------- BootStrap CSS ---------!-->
+    <!--*--------- BootStrap CSS ---------*-->
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <!--*--------- BootStrap Grid CSS ---------*-->
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap-grid.css">
+    <!--*--------- BootStrap Reboot CSS ---------*-->
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap-reboot.css">
+    <!--*---------  Form CSS ---------*-->
+    <link rel="stylesheet" href="../css/_forms.css">
     <!--*--------- main CSS ---------*-->
     <link rel="stylesheet" href="../css/main.css">
+    <!--*--------- Font CSS ---------*-->
+    <link rel="stylesheet" href="https://use.typekit.net/wzo0dfe.css">
+
+    <!--!---------------------------------!-->
 
 </head>
 
 <body>
+    <div id="content" style="text-align: center; font-size: 10px" class="font-weight-bold">
+        <!--* Page title *-->
+        <div class="jumbotron">
+            <img src="../img/myTaskBoardTitle.png" alt="my task board title" class="app_title">
+        </div>
+        <!--* from input -->
+        <div  class="list-group" id="notes_form">
+            <div class="list-group">
+                <form>
+                    <div class="form-group">
+                        <label for="Task">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Example select</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect2">Example multiple select</label>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormCaontrolTextarea1" rows="3"></textarea>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
 
 
+    <!--todo--- Main JavaScript code link ---todo-->
+    <script src="../js/index.js"></script>
 
-
-
-
- <!--todo--- Main JS code link ---todo-->
-<script src="../js/index.js"></script>
-
+    <!--todo--- jQuery first, then Popper.js, then Bootstrap JS ---todo-->
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../bower_components/"></script>
 
 </body>
 
